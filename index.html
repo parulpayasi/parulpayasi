@@ -1,140 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Parul Payasi | Portfolio</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-background:#f5f7fa;
-color:#222;
-}
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 10%;
-background:white;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
-position:sticky;
-top:0;
-}
-
-nav h2{
-color:#2563eb;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap:30px;
-}
-
-nav a{
-text-decoration:none;
-color:#333;
-font-weight:bold;
-}
-
-.hero{
-height:90vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.hero h1{
-font-size:55px;
-margin-bottom:10px;
-}
-
-.hero h1 span{
-color:#2563eb;
-}
-
-.hero h3{
-font-size:28px;
-font-weight:400;
-margin-bottom:20px;
-}
-
-.hero p{
-max-width:700px;
-margin:auto;
-line-height:1.8;
-font-size:18px;
-color:#555;
-}
-
-.btn{
-display:inline-block;
-margin-top:35px;
-padding:15px 35px;
-background:#2563eb;
-color:white;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-transition:.3s;
-}
-
-.btn:hover{
-background:#1d4ed8;
-transform:translateY(-3px);
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul Payasi | Pharmacy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
+<header>
+    <nav>
+        <h2 class="logo">Parul Payasi</h2>
 
-<h2>Parul Payasi</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Resume</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
 
-</nav>
+<section id="home" class="hero">
 
-<section class="hero">
+    <div class="hero-text">
 
-<div>
+        <h1>Parul Payasi</h1>
 
-<h1>Hello, I'm <span>Parul Payasi</span></h1>
+        <h3>Bachelor of Pharmacy Student</h3>
 
-<h3>B.Pharm Student • GPAT Aspirant</h3>
+        <p>
+            Passionate pharmacy student interested in pharmaceutical research,
+            quality assurance, clinical pharmacy and healthcare innovation.
+        </p>
+
+
+        <div class="buttons">
+
+            <a href="Parul Payasi.pdf" class="btn">
+                Download Resume
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/parul-payasi-54389a284"
+            target="_blank"
+            class="btn secondary">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="profile">
+        <img src="profile.jpg" alt="Parul Payasi">
+    </div>
+
+</section>
+
+
+
+<section id="about">
+
+<h2>About Me</h2>
 
 <p>
-Welcome to my professional portfolio.
-I am passionate about Pharmaceutical Sciences,
-research, healthcare, and technology. This website
-showcases my academic journey, projects,
-certifications, and achievements.
+I am a Bachelor of Pharmacy student at Dr. Hari Singh Gour University, Sagar.
+I have a strong interest in pharmaceutical sciences, drug research,
+hospital pharmacy and improving healthcare outcomes through knowledge
+and innovation.
 </p>
 
-<a href="#" class="btn">Explore My Portfolio</a>
+
+<div class="cards">
+
+<div class="card">
+<h3>Education</h3>
+<p>Bachelor of Pharmacy (B.Pharm)</p>
+<p>Dr. Hari Singh Gour University, Sagar</p>
+</div>
+
+
+<div class="card">
+<h3>Academic Performance</h3>
+<p>CGPA: 8+</p>
+<p>12th: 90.6%</p>
+<p>10th: 89.6%</p>
+</div>
+
+
+<div class="card">
+<h3>Achievement</h3>
+<p>State Chess Player</p>
+<p>Represented Rajasthan in chess tournaments</p>
+</div>
+
 
 </div>
 
 </section>
+
+
+
+<section id="skills">
+
+<h2>Professional Skills</h2>
+
+
+<div class="cards">
+
+<div class="card">
+<h3>Pharmaceutical Sciences</h3>
+<p>Pharmacology, Pharmaceutics, Medicinal Chemistry, Pharmacognosy</p>
+</div>
+
+
+<div class="card">
+<h3>Research Skills</h3>
+<p>Literature review, scientific writing, data analysis</p>
+</div>
+
+
+<div class="card">
+<h3>Laboratory Skills</h3>
+<p>UV spectroscopy, analytical techniques, pharmaceutical experiments</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section id="projects">
+
+<h2>Projects & Experience</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Deep Vein Thrombosis Review Article</h3>
+
+<p>
+Prepared an extensive review covering epidemiology,
+pathophysiology, complications and treatment approaches.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Hospital Pharmacy Training</h3>
+
+<p>
+Gained exposure to prescription handling,
+patient counselling and healthcare practices.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Pharmaceutical Learning Portfolio</h3>
+
+<p>
+Created study resources and academic notes
+for pharmacy concepts and competitive examinations.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section id="certificates">
+
+<h2>Certificates</h2>
+
+<p>
+Explore my professional certifications and achievements.
+</p>
+
+
+<a href="certifications.pdf" 
+class="btn"
+target="_blank">
+
+View Certificates
+
+</a>
+
+
+</section>
+
+
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+
+<p>
+Email:
+<a href="mailto:payasiparul@gmail.com">
+payasiparul@gmail.com
+</a>
+</p>
+
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/parul-payasi-54389a284"
+target="_blank">
+Profile
+</a>
+</p>
+
+
+</section>
+
+
+
+
+<footer>
+
+<p>
+© 2026 Parul Payasi | Pharmacy Portfolio
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
