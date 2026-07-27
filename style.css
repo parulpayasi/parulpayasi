@@ -334,3 +334,81 @@ nav ul{
 
 
 }
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text h3 {
+        font-size: 20px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .profile img {
+        width: 200px;
+        height: 200px;
+        margin-top: 25px;
+    }
+
+
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    section {
+        padding: 40px 15px;
+    }
+
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
+
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
