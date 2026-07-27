@@ -421,18 +421,6 @@ nav ul{
 
 @media (max-width: 768px) {
 
-    .menu-toggle {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
+    
 
 }
